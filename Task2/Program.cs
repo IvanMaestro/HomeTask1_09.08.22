@@ -13,24 +13,24 @@ int max = firstnum;
 
 if (secondnum == max)
 {
-Console.WriteLine("Числа равны");
+    Console.WriteLine("Числа равны");
 }
 else
 {
 
-if (secondnum > max)
-{
+    if (secondnum > max)
+    {
 
-    max = secondnum;
-    Console.WriteLine($"Число {secondnum} больше числа {firstnum}");
+        max = secondnum;
+        Console.WriteLine($"Число {secondnum} больше числа {firstnum}");
 
-}
+    }
 
-else
-{
+    else
+    {
 
-    max = firstnum;
-    Console.WriteLine($"Число {firstnum} больше числа {secondnum}");
-}
-Console.WriteLine($"Наибольшим числом является {max}");
+        max = firstnum;
+        Console.WriteLine($"Число {firstnum} больше числа {secondnum}");
+    }
+    Console.WriteLine($"Наибольшим числом является {max}");
 }
