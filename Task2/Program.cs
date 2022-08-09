@@ -11,6 +11,13 @@ int secondnum = Convert.ToInt32(Console.ReadLine());
 
 int max = firstnum;
 
+if (secondnum == max)
+{
+Console.WriteLine("Числа равны");
+}
+else
+{
+
 if (secondnum > max)
 {
 
@@ -26,3 +33,4 @@ else
     Console.WriteLine($"Число {firstnum} больше числа {secondnum}");
 }
 Console.WriteLine($"Наибольшим числом является {max}");
+}
