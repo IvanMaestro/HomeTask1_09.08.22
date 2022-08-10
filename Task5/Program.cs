@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Дополнительные задачи (не обязательные)
+// Задача 5: Напишите программу, которая 
+// на вход принимает одно число (N), а 
+// на выходе показывает все целые числа 
+// в промежутке от -N до N.
+// 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
+// 2 -> " -2, -1, 0, 1, 2"
+
+Console.Write("Введите любое число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int count = 0;
+
+Console.WriteLine($"Целые числа от {num * -1} до {num}: ");
+
+for (count = num * -1; count <= num; count++)
+{
+    Console.Write($"{count} ");
+}
+
